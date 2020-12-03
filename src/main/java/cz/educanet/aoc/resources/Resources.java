@@ -18,6 +18,7 @@ public class Resources {
             temp.add(sc.nextLine());
         }
         return temp;
-
     }
+
+
 }
