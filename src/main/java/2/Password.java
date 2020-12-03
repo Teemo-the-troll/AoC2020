@@ -25,13 +25,10 @@ public class Password {
         return isValid;
     }
 
-    private boolean validify(int min, int max, char passChar, String pass) {
+    private static boolean validate(int min, int max, char passChar, String pass) {
         int count = (int) pass.chars().filter(ch -> ch == passChar).count();
+        //int count = pass.length() - pass.replace(passChar, (char) 0).length();;
         return (count <= max && count >= min);
-    }
-
-    public void setValid(boolean valid) {
-        isValid = valid;
     }
 
     public Password(int min, int max, char passChar, String password) {
@@ -39,6 +36,6 @@ public class Password {
         this.max = max;
         this.passChar = passChar;
         this.password = password;
-        this.isValid = validify(this.min, this.max, this.passChar, this.password);
+        this.isValid = validate(this.min, this.max, this.passChar, this.password);
     }
 }
