@@ -20,5 +20,9 @@ public class Resources {
         return temp;
     }
 
+    public static boolean isNum(String s){
+        return s.matches("([0-9]+)");
+    }
+
 
 }

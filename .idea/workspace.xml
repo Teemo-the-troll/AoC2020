@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4dac833-39ef-46c5-8939-5de80a0b0a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day3/Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day3/Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day3/TreeFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/resources/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day4/Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day4/Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day4/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/resources/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/resources/4test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/resources/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/educanet/aoc/resources/Resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day1/Part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day1/Part1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Part1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Part2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day2/Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day3/Part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/day3/Part2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/resources/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/aoc/resources/Resources.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +45,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="eyr:2017 hcl:z pid:#2f9848 iyr:2024&#10;hgt:170cm&#10;&#10;hgt:60in eyr:2026 byr:1922 hcl:#18171d iyr:2016&#10;pid:921038878" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Part2 (1)">
-    <configuration name="Part1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day1.Part1" />
-      <module name="AoC2020v1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.educanet.aoc.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Part2 (2)">
     <configuration name="Part1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day3.Part1" />
       <module name="AoC2020v1" />
@@ -77,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day2.Part1" />
+    <configuration name="Part1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day4.Part1" />
       <module name="AoC2020v1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.educanet.aoc.day2.*" />
+          <option name="PATTERN" value="cz.educanet.aoc.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Part2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day4.Part2" />
+      <module name="AoC2020v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.educanet.aoc.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.educanet.aoc.day2.Part2" />
       <module name="AoC2020v1" />
@@ -116,26 +116,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part2 (2)" />
+        <item itemvalue="Application.Part1 (3)" />
         <item itemvalue="Application.Part2 (1)" />
         <item itemvalue="Application.Part1 (2)" />
         <item itemvalue="Application.Part2" />
-        <item itemvalue="Application.Part1 (1)" />
-        <item itemvalue="Application.Part1" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +149,9 @@
       <workItem from="1607005260504" duration="798000" />
       <workItem from="1607006531111" duration="2553000" />
       <workItem from="1607009121539" duration="5778000" />
+      <workItem from="1607084636543" duration="18322000" />
+      <workItem from="1607165869824" duration="6865000" />
+      <workItem from="1607187064408" duration="1331000" />
     </task>
     <servers />
   </component>
@@ -176,7 +177,24 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="10" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day4/Part2.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cz/educanet/aoc/day4/Part2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="hgt" />
+        <watch expression="hgtVal" />
+        <watch expression="temp" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
